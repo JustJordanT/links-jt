@@ -1,5 +1,5 @@
 function Links() {
-  return <div className="grid grid-cols-1 justify-around max-w-4xl mt-9 sm:w-full">
+  return <div className="grid grid-cols-1 ">
           <a
             href="https://github.com/JustJordanT"
             className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600 hover:scale-105 transform
