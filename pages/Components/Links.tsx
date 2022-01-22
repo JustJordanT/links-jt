@@ -38,9 +38,9 @@ function Links() {
             className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600 hover:scale-105 transform
             transition duration-300 ease-out"
           >
-            <h3 className="text-2xl font-bold">Deploy &rarr;</h3>
+            <h3 className="text-2xl font-bold">Twitter &rarr;</h3>
             <p className="mt-4 text-xl">
-              Instantly deploy your Next.js site to a public URL with Vercel.
+              Personal Twitter account.
             </p>
           </a>
         </div>;
