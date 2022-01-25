@@ -1,24 +1,37 @@
 function Links() {
-  return <div className="grid grid-cols-1 ">
+  return <div className="grid grid-cols-1 item-center">
+          <a
+            href="https://blog.justjordant.com"
+            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600 hover:scale-105 transform
+            transition duration-300 ease-out"
+          >
+            <h3 className="text-2xl font-bold">Blog</h3>
+            <p className="mt-4 text-xl">
+              Personal Blog Site 
+            </p>
+          </a>
+
           <a
             href="https://github.com/JustJordanT"
             className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600 hover:scale-105 transform
-             transition duration-300 ease-out"
+             transition duration-300 ease-out bg-white"
           >
-            <h3 className="text-2xl font-bold">GitHub &rarr;</h3>
+            {/* <h3 className="text-2xl font-bold">GitHub &rarr;</h3> */}
+            <img className="w-10 h-10" src="https://raw.githubusercontent.com/gilbarbara/logos/9f0858601cc8543b51c8eea0722dbab4a7c7a1f9/logos/github-icon.svg"></img>
             <p className="mt-4 text-xl">
               My Personal GitHub Account.
             </p>
           </a>
 
           <a
-            href="https://blog.justjordant.com"
+            href="https://www.linkedin.com/in/justjordant/"
             className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600 hover:scale-105 transform
             transition duration-300 ease-out"
           >
-            <h3 className="text-2xl font-bold">Blog &rarr;</h3>
+            {/* <h3 className="text-2xl font-bold">LinkedIn &rarr;</h3> */}
+            <img className="w-20 h-20" src="https://raw.githubusercontent.com/gilbarbara/logos/9f0858601cc8543b51c8eea0722dbab4a7c7a1f9/logos/linkedin.svg"/>
             <p className="mt-4 text-xl">
-              Personal Blog Site
+              Check out my work experience.
             </p>
           </a>
 
@@ -27,20 +40,10 @@ function Links() {
             className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600 hover:scale-105 transform
             transition duration-300 ease-out"
           >
-            <h3 className="text-2xl font-bold">LinkedIn &rarr;</h3>
+            {/* TODO add route to portfolio page*/}
+            <h3 className="text-2xl font-bold">Portfolio</h3> 
             <p className="mt-4 text-xl">
-              Check out my work experience! 
-            </p>
-          </a>
-
-          <a
-            href="https://www.linkedin.com/in/justjordant/"
-            className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600 hover:scale-105 transform
-            transition duration-300 ease-out"
-          >
-            <h3 className="text-2xl font-bold">Deploy &rarr;</h3>
-            <p className="mt-4 text-xl">
-              Instantly deploy your Next.js site to a public URL with Vercel.
+              Project showcase.
             </p>
           </a>
         </div>;
