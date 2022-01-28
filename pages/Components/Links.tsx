@@ -7,7 +7,7 @@ function Links() {
           >
             <h3 className="text-2xl font-bold">Blog</h3>
             <p className="mt-4 text-xl">
-              Personal Blog Site 
+              My Blog Site 
             </p>
           </a>
 
@@ -19,7 +19,7 @@ function Links() {
             {/* <h3 className="text-2xl font-bold">GitHub &rarr;</h3> */}
             <img className="w-10 h-10" src="https://raw.githubusercontent.com/gilbarbara/logos/9f0858601cc8543b51c8eea0722dbab4a7c7a1f9/logos/github-icon.svg"></img>
             <p className="mt-4 text-xl">
-              My Personal GitHub Account.
+              My GitHub Account.
             </p>
           </a>
 
@@ -31,7 +31,7 @@ function Links() {
             {/* <h3 className="text-2xl font-bold">LinkedIn &rarr;</h3> */}
             <img className="w-20 h-20" src="https://raw.githubusercontent.com/gilbarbara/logos/9f0858601cc8543b51c8eea0722dbab4a7c7a1f9/logos/linkedin.svg"/>
             <p className="mt-4 text-xl">
-              Check out my work experience.
+              My work experience.
             </p>
           </a>
 
@@ -43,7 +43,7 @@ function Links() {
             {/* TODO add route to portfolio page*/}
             <h3 className="text-2xl font-bold">Portfolio</h3> 
             <p className="mt-4 text-xl">
-              Project showcase.
+              My Project showcase.
             </p>
           </a>
         </div>;
