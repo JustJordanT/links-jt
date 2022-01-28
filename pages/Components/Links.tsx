@@ -1,3 +1,5 @@
+import { useRouter } from 'next/router'
+
 function Links() {
   return <div className="grid grid-cols-1 item-center">
           <a
@@ -36,7 +38,7 @@ function Links() {
           </a>
 
           <a
-            href="https://www.linkedin.com/in/justjordant/"
+            href="/portfolio"
             className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600 hover:scale-105 transform
             transition duration-300 ease-out"
           >

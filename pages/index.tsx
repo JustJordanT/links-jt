@@ -23,6 +23,7 @@ export default function Home() {
           </a>
         </h1>
         <h2 className='break-words font-semibold text-gray-500'>Currently working as a Platform engineer. 🏗</h2>
+        <h2 className='break-words font-semibold text-gray-500'>Working with Infrastructure as code with C#, Python.</h2>
 
         <Links />
       </main>
