@@ -1,3 +1,3 @@
 # Link Site
 
-- Just a minimal personal link site. 
+- Just a minimal personal link site.
