@@ -14,7 +14,7 @@ function Links() {
           </a>
 
           <a
-            href="https://weekly-eng.com"
+            href="https://newsletters.weekly-eng.com"
             className="p-6 mt-6 text-left border w-96 rounded-xl hover:text-blue-600 focus:text-blue-600 hover:scale-105 transform
             transition duration-300 ease-out"
           >
